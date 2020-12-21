@@ -1,0 +1,60 @@
+{
+  "language": "English",
+  "version": "1.0",
+  "content": {
+    "ui.intro": "ModularBot for WhatsApp, by Everton R. Colombo.",
+    "ui.ask.target": "Target Chat (name of the contact/group): ",
+    "ui.ask.chatType": "Chat Type (\"contact\" or \"group\"): ",
+    "ui.ask.chatType.answer1": "contact",
+    "ui.ask.chatType.answer2": "group",
+    "ui.ask.masterAgent": "Master User (admin's number or contact name): ",
+
+    "bot.initialized": "*ModularBot* by *Everton R. Colombo*\n*Version:* %s\n*Language:* %s",
+    "bot.shutdown": "Shutting down...",
+
+    "bot.commands.noPermission": "You do not have permission the execute that command!",
+    "bot.commands.unknownCommand": "No such command!",
+    "bot.commands.invalidArguments": "Invalid Argument(s)!",
+    "bot.commands.displayName": "*Name:* %s",
+    "bot.commands.displayUsage": "*Usage:* %s%s",
+    "bot.commands.displayDescription": "*Description:* %s",
+    "bot.commands.displayLevel": "*Required access level:* %s",
+
+    "bot.commands.listModules.name": "modules",
+    "bot.commands.listModules.usage": "modules",
+    "bot.commands.listModules.description": "Lists all active modules",
+    "bot.commands.listModules.content.intro": "*%s* active modules...",
+
+    "bot.commands.removeModule.name": "remove",
+    "bot.commands.removeModule.usage": "remove _<MODULE-NAME>_",
+    "bot.commands.removeModule.description": "Removes _<MODULE-NAME>_ from the active modules list, stopping its execution",
+    "bot.commands.removeModule.intro": "Removing module: *%s*...",
+    "bot.commands.removeModule.content.success": "Module Removed!",
+    "bot.commands.removeModule.content.failure": "Could not remove module: *%s*",
+
+    "bot.commands.help.name": "help",
+    "bot.commands.help.usage": "help",
+    "bot.commands.help.description": "Lists all available commands and their descriptions",
+    "bot.commands.help.content.intro": "*%s* available commands...",
+
+    "bot.commands.displayHierarchy.name": "hierarchy",
+    "bot.commands.displayHierarchy.usage": "hierarchy",
+    "bot.commands.displayHierarchy.description": "Lists all users whose access level has been required at some point and their current access levels",
+    "bot.commands.displayHierarchy.content.intro": "*Access Level Hierarchy:*",
+
+    "bot.commands.promote.name": "promote",
+    "bot.commands.promote.usage": "promote : _<USER>_ : _<LEVEL>_",
+    "bot.commands.promote.description": "Sets _<USER>_'s access level to _<LEVEL>_",
+    "bot.commands.promote.content.success": "@%s's access level has been successfully updated to *%s* ",
+    "bot.commands.promote.content.failure.notEnoughPower": "You can only change the access level of someone lower down the hierarchy than you!",
+
+    "bot.commands.shutdown.name": "shutdown",
+    "bot.commands.shutdown.usage": "shutdown",
+    "bot.commands.shutdown.description": "Shuts the bot down",
+
+    "module.loaded": "*Module Loaded:* %s.",
+    "module.failedLoad": "Failed to load module: *%s*",
+    "module.terminated": "*Module Terminated:* %s",
+    "module.failedTermination": "Failed to terminate module correctly: *%s*"
+  }
+}

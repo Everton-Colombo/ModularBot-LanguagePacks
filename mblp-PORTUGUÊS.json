@@ -1,0 +1,60 @@
+{
+  "language": "Portugês",
+  "version": "1.0",
+  "content": {
+    "ui.intro": "ModularBot para WhatsApp, por Everton R. Colombo.",
+    "ui.ask.target": "Conversa-Alvo (nome do contato ou grupo para a atuação do bot): ",
+    "ui.ask.chatType": "Tipo de Conversa (\"contato\" ou \"grupo\"): ",
+    "ui.ask.chatType.answer1": "contato",
+    "ui.ask.chatType.answer2": "grupo",
+    "ui.ask.masterAgent": "Usuário Master (número ou nome do contato do admin): ",
+
+    "bot.initialized": "*ModularBot* por *Everton R. Colombo*\n*Versão:* %s\n*Idioma:* %s",
+    "bot.shutdown": "Desligando...",
+
+    "bot.commands.noPermission": "Você não tem permissão para executar esse comando!",
+    "bot.commands.unknownCommand": "Esse comando não existe!",
+    "bot.commands.invalidArguments": "Argumento(s) Inválido(s)!",
+    "bot.commands.displayName": "*Nome:* %s",
+    "bot.commands.displayUsage": "*Modo de Uso:* %s%s",
+    "bot.commands.displayDescription": "*Descrição:* %s",
+    "bot.commands.displayLevel": "*Nível de acesso requerido:* %s",
+
+    "bot.commands.listModules.name": "módulos",
+    "bot.commands.listModules.usage": "módulos",
+    "bot.commands.listModules.description": "Lista todos os módulos ativos",
+    "bot.commands.listModules.content.intro": "*%s* módulos ativos...",
+
+    "bot.commands.removeModule.name": "remover",
+    "bot.commands.removeModule.usage": "remover _<NOME-DO-MÓDULO>_",
+    "bot.commands.removeModule.description": "Remove _<NOME-DO-MÓDULO>_ da lista de módulos ativos, parando, também, sua execução",
+    "bot.commands.removeModule.intro": "Removendo módulo: *%s*...",
+    "bot.commands.removeModule.content.success": "Módulo Removido!",
+    "bot.commands.removeModule.content.failure": "Não foi possível remover módulo: *%s*",
+
+    "bot.commands.help.name": "ajuda",
+    "bot.commands.help.usage": "ajuda",
+    "bot.commands.help.description": "Lista e descreve todos os comandos disponíveis",
+    "bot.commands.help.content.intro": "*%s* comandos disponíveis...",
+
+    "bot.commands.displayHierarchy.name": "hierarquia",
+    "bot.commands.displayHierarchy.usage": "hierarquia",
+    "bot.commands.displayHierarchy.description": "Lista todos os usuários (e seus níveis de acesso atuais) cujo nível de acesso fora utilizado alguma vez",
+    "bot.commands.displayHierarchy.content.intro": "*Hierarquia dos Níveis de Acesso:*",
+
+    "bot.commands.promote.name": "promover",
+    "bot.commands.promote.usage": "promover : _<USUÁRIO>_ : _<NÍVEL>_",
+    "bot.commands.promote.description": "Torna o nível de acesso de _<USUÁRIO>_ igual a _<NÍVEL>_",
+    "bot.commands.promote.content.success": "O nível de acesso de @%s foi atualizado para *%s* com sucesso.",
+    "bot.commands.promote.content.failure.notEnoughPower": "Você só pode mudar o nível de acesso de alguem hierarquicamente inferior a você!",
+
+    "bot.commands.shutdown.name": "desligar",
+    "bot.commands.shutdown.usage": "desligar",
+    "bot.commands.shutdown.description": "Desliga o bot",
+
+    "module.loaded": "*Módulo Carregado:* %s.",
+    "module.failedLoad": "Falha ao carregar módulo: *%s*",
+    "module.terminated": "*Módulo Finalizado:* %s.",
+    "module.failedTermination": "Não foi possível finalizar o módulo corretamente: *%s*"
+  }
+}
